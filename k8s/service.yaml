@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: renato-eleve-service
+  namespace: renato-eleve
+  labels:
+    app: renato-eleve
+spec:
+  type: ClusterIP
+  selector:
+    app: renato-eleve
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 3000

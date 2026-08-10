@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "siteTitle": "Eleve Guindastes - Munck e Remoção Industrial",
+    "description": "Locação de guindastes, caminhões munck e carretas para içamento e movimentação de cargas em Recife e região.",
+    "language": "pt-BR",
+    "iconUrl": "/eleve-e-mark.svg",
+    "iconType": "image/svg+xml"
+  },
+  "header": {
+    "brand": {
+      "label": "Eleve Guindastes",
+      "logoAlt": "Eleve Guindastes",
+      "logoSrc": "/logo-eleve.png",
+      "href": "#"
+    },
+    "menuButtonLabel": "Abrir menu",
+    "navItems": [
+      { "label": "INÍCIO", "href": "#" },
+      { "label": "SERVIÇOS", "href": "#servicos" },
+      { "label": "SOBRE", "href": "#sobre" },
+      { "label": "DEPOIMENTOS", "href": "#depoimentos" },
+      { "label": "CONTATO", "href": "#contato" }
+    ],
+    "cta": {
+      "href": "#contato",
+      "line1": "SOLICITAR",
+      "line2": "ORÇAMENTO"
+    }
+  },
+  "home": {
+    "sectionHeroes": [
+      { "eyebrow": "ESPECIALISTAS EM IÇAMENTO", "title": "NOSSOS SERVIÇOS" },
+      { "eyebrow": "FORÇA E PRECISÃO EM CADA IÇAMENTO", "title": "EXCELÊNCIA TÉCNICA" },
+      { "eyebrow": "O QUE NOSSOS CLIENTES DIZEM", "title": "DEPOIMENTOS" },
+      { "eyebrow": "ATENDIMENTO TÉCNICO E OPERACIONAL", "title": "CONTATO" }
+    ]
+  },
+  "hero": {
+    "brandLogoAlt": "Eleve Guindastes",
+    "brandLogoSrc": "/Logo-Eleve_Guindastes.png",
+    "description": "Especialista em içamento e movimentação de cargas para indústria e construção civil",
+    "ctaPrimary": { "label": "SOLICITAR ORÇAMENTO", "href": "#contato" },
+    "ctaSecondary": { "label": "NOSSOS SERVIÇOS", "href": "#servicos" },
+    "imageAlt": "Caminhão guindaste da Eleve Guindastes",
+    "imageSrc": "/guindaste_hero.png"
+  },
+  "services": {
+    "sectionId": "servicos",
+    "cardCtaLabel": "CONSULTAR DISPONIBILIDADE",
+    "contactHref": "#contato",
+    "items": [
+      {
+        "image": "/servicos/munck.png",
+        "title": "Aluguel de Caminhão Munck até 60 t",
+        "description": "Ideal para operações urbanas e locais de difícil acesso, nossos caminhões munck combinam versatilidade de transporte com precisão de içamento.",
+        "capacityLabel": "Capacidade máxima",
+        "capacityValue": "60 Toneladas"
+      },
+      {
+        "image": "/servicos/guindastes.jpg",
+        "title": "Aluguel de Guindastes até 160 t",
+        "description": "Força bruta para grandes estruturas. Nossa frota de guindastes telescópicos atende aos mais rigorosos padrões de segurança industrial.",
+        "capacityLabel": "Capacidade máxima",
+        "capacityValue": "160 Toneladas"
+      },
+      {
+        "image": "/servicos/carreta.png",
+        "title": "Aluguel de Carretas para Transporte",
+        "description": "Soluções completas de logística para cargas indivisíveis e excedentes. Pranchas, carretas extensivas e cavalos mecânicos de alta potência."
+      },
+      {
+        "image": "/servicos/remocao-industrial.jpg",
+        "title": "Remoção Industrial e Elevação",
+        "description": "Movimentação técnica de máquinas sensíveis em ambientes confinados. Equipe especializada em rigging e montagem industrial."
+      }
+    ]
+  },
+  "technicalExcellence": {
+    "sectionId": "sobre",
+    "eyebrow": "SERVIÇOS DE ALTO IMPACTO",
+    "title": "SERVIÇOS DE ALTO IMPACTO",
+    "paragraph1": "Somos especialistas em içamento e movimentação de cargas para indústria e construção civil, atuando com planejamento técnico, execução segura e controle operacional em cada etapa.",
+    "paragraph2": "Nossa equipe integra guindastes, caminhões munck, carretas e remoção industrial para atender operações de alta complexidade com confiança e precisão.",
+    "points": [
+      "MONTAGENS INDUSTRIAIS",
+      "ESTRUTURAS METÁLICAS",
+      "REMOÇÃO TÉCNICA"
+    ],
+    "checkSymbol": "✓",
+    "images": [
+      {
+        "src": "/excelencia/image_1.png",
+        "alt": "Operação técnica com caminhão munck",
+        "width": 560,
+        "height": 900
+      },
+      {
+        "src": "/excelencia/image_2.png",
+        "alt": "Transporte técnico de carga",
+        "width": 260,
+        "height": 430
+      },
+      {
+        "src": "/excelencia/image_3.png",
+        "alt": "Guindaste em elevação",
+        "width": 260,
+        "height": 430
+      }
+    ]
+  },
+  "actionGallery": {
+    "sectionId": "eleve-em-acao",
+    "eyebrow": "Operações reais",
+    "title": "Eleve em Ação",
+    "subtitle": "Veja alguns registros da nossa equipe em campo, executando içamentos, transportes especiais e movimentações de cargas com segurança, precisão e responsabilidade.",
+    "highlightText": "Cada operação é planejada com atenção aos detalhes, respeitando normas de segurança, capacidade dos equipamentos e as necessidades de cada cliente.",
+    "ctaLabel": "Solicitar orçamento pelo WhatsApp",
+    "ctaSupport": "Envie sua demanda e nossa equipe indica a melhor solução para sua operação.",
+    "items": [
+      {
+        "src": "/gallery/eleve-acao-01.jpg",
+        "alt": "Guindaste em operação de içamento em campo",
+        "serviceTag": "Içamento técnico",
+        "caption": "Operações planejadas com segurança",
+        "overlay": true
+      },
+      
+      {
+        "src": "/gallery/eleve-acao-03.jpg",
+        "alt": "Caminhão munck executando movimentação técnica",
+        "serviceTag": "Operação com munck",
+        "caption": "Execução técnica com controle operacional",
+        "overlay": true
+      },
+      {
+        "src": "/gallery/eleve-acao-04.jpg",
+        "alt": "Operação de carga com caminhão munck em pátio",
+        "serviceTag": "Movimentação de carga",
+        "caption": "Movimentação precisa em ambiente de campo",
+        "overlay": false
+      },
+      {
+        "src": "/gallery/eleve-acao-05.jpg",
+        "alt": "Içamento com equipamento pesado em operação externa",
+        "serviceTag": "Operação com munck",
+        "caption": "Precisão em cada etapa do serviço",
+        "overlay": true
+      },
+      {
+        "src": "/gallery/eleve-acao-07.jpg",
+        "alt": "Operação integrada de içamento e transporte",
+        "serviceTag": "Içamento técnico",
+        "caption": "Soluções sob medida para cada operação",
+        "overlay": true
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionId": "depoimentos",
+    "source": "GOOGLE REVIEWS",
+    "googleBadgeLetter": "G",
+    "ariaRatingTemplate": "Avaliação {rating} de 5",
+    "ariaOpenReviewTemplate": "Abrir review de {name} no Google",
+    "items": [
+      {
+        "initials": "JC",
+        "name": "João CCR Logística",
+        "rating": 5,
+        "text": "Equipe capacitada, descarga com segurança e pontualidade. Com certeza contrataremos para novas operações.",
+        "date": "Postado há 4 meses",
+        "reviewUrl": "https://share.google/uhaPwRpXNfD2DNqh7"
+      },
+      {
+        "initials": "TO",
+        "name": "Tatiana Oliveira",
+        "rating": 5,
+        "text": "Excelente trabalho, pontualíssimo na chegada e saída do serviço.",
+        "date": "Postado há 5 meses",
+        "reviewUrl": "https://share.google/wmNVrGtil241W2kJf"
+      },
+      {
+        "initials": "ED",
+        "name": "Eduardo Dantas",
+        "rating": 5,
+        "text": "Atendimento, agilidade e segurança. Confio e recomendo.",
+        "date": "Postado há 5 meses",
+        "reviewUrl": "https://www.google.com/search?q=Eleve+Guindastes+reviews"
+      }
+    ]
+  },
+  "reputation": {
+    "ariaRating": "Avaliação 5 de 5",
+    "eyebrow": "NOSSA REPUTAÇÃO DIGITAL",
+    "description": "Transparência e qualidade avaliadas por quem utiliza nossos serviços.",
+    "score": "5.0",
+    "label": "NOTA GERAL GOOGLE"
+  },
+  "contact": {
+    "sectionId": "contato",
+    "eyebrow": "CONTATO OPERACIONAL",
+    "title": "FALE COM A NOSSA EQUIPE",
+    "items": [
+      {
+        "label": "Endereço",
+        "value": "R. Real da Torre, 825 - Madalena, Recife - PE, 50710-100"
+      },
+      {
+        "label": "Telefone",
+        "value": "(81) 98822-7991"
+      },
+      {
+        "label": "E-mail",
+        "value": "guindasteseleve@gmail.com"
+      }
+    ],
+    "form": {
+      "title": "Envie uma mensagem",
+      "nameLabel": "Nome",
+      "namePlaceholder": "Seu nome completo",
+      "phoneLabel": "Telefone",
+      "phonePlaceholder": "(81) 98822-7991",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Descreva sua necessidade de içamento, transporte ou remoção.",
+      "buttonLabel": "ENVIAR MENSAGEM",
+      "whatsappUrl": "https://wa.me/5581988227991?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+    },
+    "locationTitle": "LOCALIZAÇÃO",
+    "locationText": "R. Real da Torre, 825 - Madalena, Recife - PE",
+    "mapTitle": "Mapa de atendimento Eleve Guindastes",
+    "mapEmbedUrl": "https://www.google.com/maps?q=R.%20Real%20da%20Torre%2C%20825%20-%20Madalena%2C%20Recife%20-%20PE%2C%2050710-100&output=embed"
+  },
+  "footer": {
+    "brandLabel": "Eleve Guindastes",
+    "brandAlt": "Eleve Guindastes",
+    "brandLogoSrc": "/logo-eleve.png",
+    "brandHref": "#",
+    "navAriaLabel": "Links do rodapé",
+    "links": [
+      { "label": "Início", "href": "#" },
+      { "label": "Serviços", "href": "#servicos" },
+      { "label": "Sobre", "href": "#sobre" },
+      { "label": "Depoimentos", "href": "#depoimentos" },
+      { "label": "Contato", "href": "#contato" }
+    ],
+    "attendanceText": "Atendemos Recife e região",
+    "whatsappText": "WhatsApp: (81) 98822-7991",
+    "instagram": {
+      "url": "https://www.instagram.com/eleveguindastes/",
+      "ariaLabel": "Instagram da Eleve Guindastes",
+      "handle": "@eleveguindastes"
+    },
+    "copyrightTemplate": "(c) {year} Eleve Guindastes. Todos os direitos reservados.",
+    "developerUrl": "https://website.ideiasemdev.com.br",
+    "developerLabel": "Desenvolvido por ideiasemdev"
+  }
+}

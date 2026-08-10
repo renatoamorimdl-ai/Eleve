@@ -1,0 +1,34 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.2">
+    <ellipse cx="980" cy="664" rx="350" ry="42" fill="#06113F"/>
+  </g>
+  <g transform="translate(285 40)">
+    <path d="M304 116L780 0L794 52L320 170L304 116Z" fill="#FFFFFF"/>
+    <rect x="748" y="16" width="16" height="198" rx="8" fill="#FFFFFF"/>
+    <path d="M742 194H775V244C775 258.359 763.359 270 749 270H742V194Z" fill="#DFE5F6"/>
+    <path d="M728 244C728 232.954 736.954 224 748 224H783C794.046 224 803 232.954 803 244V264C803 275.046 794.046 284 783 284H748C736.954 284 728 275.046 728 264V244Z" fill="#FFFFFF"/>
+    <path d="M761 284H788V338C788 357.882 771.882 374 752 374H743V302C743 292.059 751.059 284 761 284Z" fill="#E7EDF8"/>
+    <path d="M781 364H820V382C820 404.091 802.091 422 780 422H771V374C771 368.477 775.477 364 781 364Z" fill="#FFFFFF"/>
+    <path d="M220 346C220 330.536 232.536 318 248 318H968C998.928 318 1024 343.072 1024 374V444H220V346Z" fill="#F8FAFF"/>
+    <path d="M220 404H1024V444H220V404Z" fill="#0E206C"/>
+    <path d="M334 256H628C648.987 256 666 273.013 666 294V342H286V304C286 277.49 307.49 256 334 256Z" fill="#FFFFFF"/>
+    <path d="M324 274H590C603.255 274 614 284.745 614 298V334H302V296C302 283.85 311.85 274 324 274Z" fill="#AEC1EA"/>
+    <path d="M666 288H748V342H666V288Z" fill="#0F2D89"/>
+    <path d="M752 332H874V362H752V332Z" fill="#0E206C"/>
+    <path d="M264 430H1038V506H264V430Z" fill="#FFFFFF"/>
+    <path d="M264 506H1038V544H264V506Z" fill="#0D1C57"/>
+    <path d="M456 430H520V544H456V430Z" fill="#0E206C"/>
+    <path d="M840 430H904V544H840V430Z" fill="#0E206C"/>
+    <circle cx="436" cy="566" r="84" fill="#121A30"/>
+    <circle cx="436" cy="566" r="52" fill="#DDE4F4"/>
+    <circle cx="436" cy="566" r="26" fill="#1D2B57"/>
+    <circle cx="858" cy="566" r="84" fill="#121A30"/>
+    <circle cx="858" cy="566" r="52" fill="#DDE4F4"/>
+    <circle cx="858" cy="566" r="26" fill="#1D2B57"/>
+    <path d="M958 494H1066C1086.99 494 1104 511.013 1104 532V544H958V494Z" fill="#FFFFFF"/>
+    <rect x="1054" y="526" width="54" height="18" rx="4" fill="#D8E0F4"/>
+    <path d="M768 86L904 54L916 96L780 130L768 86Z" fill="#D3DCF2"/>
+    <path d="M898 62L918 58L940 142H920L898 62Z" fill="#FFFFFF"/>
+    <path d="M915 142H946V162C946 177.464 933.464 190 918 190H915V142Z" fill="#D8E2F8"/>
+  </g>
+</svg>
