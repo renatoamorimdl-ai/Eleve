@@ -8,6 +8,7 @@ export default function ContactSection() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [isSaving, setIsSaving] = useState(false);
 
   const whatsappHref = useMemo(() => {
     const fallbackHref = siteData.contact.form.whatsappUrl;
@@ -28,6 +29,31 @@ export default function ContactSection() {
       return fallbackHref;
     }
   }, [message, name, phone]);
+
+  const handleSubmitClick = () => {
+    if (isSaving) return;
+    if (!name && !phone && !message) return;
+
+    setIsSaving(true);
+
+    // Envia os dados para a planilha de leads sem bloquear a abertura do
+    // WhatsApp, que continua acontecendo normalmente pelo href do botão.
+    fetch("/api/lead", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name,
+        phone,
+        message,
+        pageUrl: typeof window !== "undefined" ? window.location.href : "",
+      }),
+      keepalive: true,
+    })
+      .catch(() => {
+        // Falha silenciosa: nunca deve impedir o usuário de falar no WhatsApp.
+      })
+      .finally(() => setIsSaving(false));
+  };
 
   return (
     <section id={siteData.contact.sectionId} className="section-padding bg-[#f7f7f7]">
@@ -103,6 +129,7 @@ export default function ContactSection() {
               href={whatsappHref}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={handleSubmitClick}
               className="mt-1 w-full !min-h-[42px] !px-5 md:w-fit md:!min-h-[44px]"
             >
               {siteData.contact.form.buttonLabel}
