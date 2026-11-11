@@ -135,14 +135,12 @@ export default function EleveInActionSection() {
 
         <div className="anim-rise anim-delay-3 mt-8 grid justify-items-center gap-3 text-center">
           <a
-            href={siteData.contact.form.whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            data-track-click="whatsapp_click"
+            href={`#${siteData.contact.sectionId}`}
+            data-track-click="cta_click"
             className="inline-flex min-h-[46px] w-full items-center justify-center gap-2 bg-[#0a64a6] px-6 text-center text-[12px] font-bold uppercase tracking-[0.08em] !text-white transition-all duration-200 hover:bg-[#09558d] md:w-auto"
           >
             <span className="!text-white">{siteData.actionGallery.ctaLabel}</span>
-            <span aria-hidden="true">↗</span>
+            <span aria-hidden="true">↓</span>
           </a>
           <p className="m-0 max-w-[720px] text-[12px] font-medium text-[#555866] md:text-[13px]">
             {siteData.actionGallery.ctaSupport}
