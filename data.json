@@ -222,6 +222,15 @@
       "messageLabel": "Mensagem",
       "messagePlaceholder": "Descreva sua necessidade de içamento, transporte ou remoção.",
       "buttonLabel": "ENVIAR MENSAGEM",
+      "floating": {
+        "title": "Falar no WhatsApp",
+        "subtitle": "Informe seu nome e telefone para iniciarmos o atendimento.",
+        "buttonLabel": "ABRIR WHATSAPP",
+        "cancelLabel": "Fechar",
+        "nameError": "Informe seu nome.",
+        "phoneError": "Informe um telefone com DDD.",
+        "leadMessage": "Lead via botão flutuante do WhatsApp"
+      },
       "whatsappUrl": "https://wa.me/5581988227991?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
     },
     "locationTitle": "LOCALIZAÇÃO",
